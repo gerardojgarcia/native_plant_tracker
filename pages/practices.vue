@@ -1,14 +1,13 @@
 <script>
 export default {
-  name: "index"
+  name: "practices"
 }
 </script>
 
 <template>
-<section class="mt-24">
+<section class="pt-24">
 
-
-  <h1 class="text-6xl">Hello</h1>
+  <h1 class="text-6xl">Keep your garden thriving!</h1>
 
 </section>
 </template>

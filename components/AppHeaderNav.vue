@@ -10,13 +10,16 @@ export default {
 
   <ul class="flex space-x-8">
     <li>
-      <NuxtLink>Species</NuxtLink>
+      <NuxtLink to="/"  class="rounded-lg hover:text-white hover:bg-amber-300 hover:shadow-md  p-4 link">Home</NuxtLink>
     </li>
     <li>
-      <NuxtLink>Best Practices</NuxtLink>
+      <NuxtLink to="species"  class="rounded-lg hover:text-white hover:bg-amber-300 hover:shadow-md  p-4 link">Species</NuxtLink>
     </li>
     <li>
-      <NuxtLink> Learn More</NuxtLink>
+      <NuxtLink to="practices" class="rounded-lg hover:text-white hover:bg-amber-300 hover:shadow-md  p-4 link">Best Practices</NuxtLink>
+    </li>
+    <li>
+      <NuxtLink to="learn" class="rounded-lg hover:text-white hover:bg-amber-300 hover:shadow-md  p-4 link"> Learn More</NuxtLink>
     </li>
   </ul>
 
@@ -24,5 +27,12 @@ export default {
 </template>
 
 <style scoped>
+
+.link {
+  transition: background-color ease-in-out;
+  transition-duration:  200ms;
+}
+
+
 
 </style>
