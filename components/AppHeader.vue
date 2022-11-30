@@ -19,7 +19,7 @@ export default {
 header {
   position: fixed;
   top: 0;
-  box-shadow: 0 2px 20px 0 gray;
+  box-shadow: 0 1px 10px 0 gray;
   box-sizing: border-box;
 }
 

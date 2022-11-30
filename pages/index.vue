@@ -7,8 +7,8 @@ export default {
 <template>
 <section class="mt-24">
 
+<AppHero/>
 
-  <h1 class="text-6xl">Hello</h1>
 
 </section>
 </template>
