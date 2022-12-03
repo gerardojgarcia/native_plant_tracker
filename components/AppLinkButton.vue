@@ -10,7 +10,7 @@ export default {
 
 <template>
 <div>
-  <NuxtLink class="app-link bg-amber-300 rounded-lg px-8 py-3 text-white shadow-md hover:drop-shadow-lg" to="login">{{link}} </NuxtLink>
+  <NuxtLink class="app-link bg-green-800 rounded-lg px-8 py-3 text-white shadow-md hover:drop-shadow-lg" to="login">{{link}} </NuxtLink>
 </div>
 </template>
 

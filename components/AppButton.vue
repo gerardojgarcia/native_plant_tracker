@@ -8,8 +8,8 @@ export default {
 </script>
 
 <template>
-  <div>
-    <NuxtLink class="app-link bg-amber-300 rounded-lg px-8 py-3 text-white shadow-md hover:drop-shadow-lg" to="login">{{link}} </NuxtLink>
+  <div class="mt-24">
+    <NuxtLink class="app-link text-white rounded-lg px-8 py-3 bg-green-800 shadow-md hover:drop-shadow-lg" to="login">{{link}} </NuxtLink>
   </div>
 </template>
 

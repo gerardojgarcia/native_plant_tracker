@@ -8,7 +8,9 @@ export default {
 <section class="mt-24">
 
 <AppHero/>
-
+  <AppFeatures/>
+  <AppPlantSection/>
+<AppPlantSales/>
 
 </section>
 </template>

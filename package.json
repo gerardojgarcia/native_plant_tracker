@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "aos": "^2.3.4",
     "nuxt": "3.0.0"
   },
   "dependencies": {

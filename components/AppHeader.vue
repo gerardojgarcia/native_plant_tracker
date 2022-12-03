@@ -6,9 +6,9 @@ export default {
 
 <template>
 <div>
-  <header class=" bg-white flex flex-row justify-between w-full px-16 py-6">
+  <header class=" bg-white flex flex-row justify-between w-full px-16 py-6 z-10">
     <AppHeaderNav/>
-    <AppLinkButton link="Sign In" />
+    <AppLinkButton link="Sign Up!" />
 
   </header>
 </div>
