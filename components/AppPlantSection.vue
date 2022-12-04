@@ -30,7 +30,7 @@ export default {
 
       <div class="flex justify-end w-full items-center self-end">
 
-        <AppButton link="Show Me How" class="mr-8"/>
+        <AppButton link="Show Me How" class="mr-8 mt-24"/>
         <AppVideoButton title="Watch Video"/>
 
       </div>

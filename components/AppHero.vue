@@ -64,7 +64,7 @@ export default {
 
       <div class="flex justify-between w-1/2 items-center">
 
-        <AppButton link="Show Me How"/>
+        <AppButton link="Show Me How" class="mt-24"/>
         <AppVideoButton title="Watch Video"/>
 
       </div>

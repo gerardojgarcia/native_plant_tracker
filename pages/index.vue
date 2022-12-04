@@ -11,6 +11,8 @@ export default {
   <AppFeatures/>
   <AppPlantSection/>
 <AppPlantSales/>
+  <AppTestimonials/>
+  <AppFooter/>
 
 </section>
 </template>
