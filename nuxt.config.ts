@@ -2,6 +2,13 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss'
+
     ],
+
+    vue: {
+        compilerOptions: {
+            isCustomElement: tag =>['aos'].includes(tag)
+        }
+    }
 
 })

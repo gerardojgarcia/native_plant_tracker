@@ -50,7 +50,7 @@ export default {
 
 
       <!--plant testimonial card-->
-      <div class="plant-testimonial-card flex flex-col justify-start rounded-lg bg-gray-100 pt-4 pb-8 shadow-lg" v-for="testimonial in testimonials">
+      <div class="plant-testimonial-card flex flex-col justify-start rounded-lg bg-gray-100 pt-4 pb-8 shadow-lg hover:shadow-2xl" v-for="testimonial in testimonials">
 
         <!--Testimonial Card Header-->
         <div class="card-header flex justify-between px-8">

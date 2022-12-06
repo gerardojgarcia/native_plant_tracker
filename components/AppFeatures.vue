@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-  <section id="features " class="w-full pb-32 flex flex-col items-center text-green-800" data-aos="fade-up" data-aos-duration="300ms">
+  <section id="features " class="w-full pb-40 flex flex-col items-center text-green-800" data-aos="fade-up" data-aos-duration="300ms">
   <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Explore</p>
 <h2 class="text-3xl pb-32" data-aos="zoom-in-up">Find all the information you need.</h2>
 
