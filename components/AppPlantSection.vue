@@ -25,8 +25,8 @@ export default {
     <div class="space-y-16 p-24 flex flex-col" data-aos="fade-right" data-aos-duration="450ms">
 
       <!--TExt container-->
-      <h3 class="text-6xl text-green-800">The Easiest Way to Make A Healthy Life with Plants</h3>
-      <p class="plant-description pl-60 text-gray-600 text-right"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. Assumenda dolorum eaque enim fugit officiis ratione reprehenderit soluta. Debitis iure quae sequi sunt!</span></p>
+      <h3 class="text-6xl text-green-800">Discover the benefits of planting native in Southern California</h3>
+      <p class="plant-description pl-60 text-gray-600 text-right text-lg"><span>Shop our wide selection of native plants, sourced from the best local growers in Southern California</span></p>
 
       <div class="flex justify-end w-full items-center self-end">
 

@@ -10,26 +10,26 @@ export default {
           name: "Yessica Christy",
           location: 'Boyle Heights',
           rating: '4.7',
-          testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate'
+          testimonial: 'I was blown away by the selection of native plants. The staff was incredibly knowledgeable and helpful in guiding me towards plants that would thrive in my garden. I love the way my new native plants are bringing life and beauty to my space!'
 
         },
 
         {
           id: 1,
           img: '/',
-          name: "Yessica Christy",
-          location: 'Boyle Heights',
-          rating: '4.7',
-          testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate'
+          name: "David Blanco",
+          location: 'East Los Angeles',
+          rating: '4.3',
+          testimonial: 'I am thrilled with the native plants I purchased from ELACompost. Not only are they a gorgeous addition to my garden, but I know that by choosing native plants, I am supporting local ecosystems and doing my part to conserve water and other resources. Thank you for your commitment to sustainability!'
 
         },
         {
           id: 1,
           img: '/',
-          name: "Yessica Christy",
+          name: "Stephanie Prado",
           location: 'Boyle Heights',
-          rating: '4.7',
-          testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate'
+          rating: '4.2',
+          testimonial: 'I can\'t say enough good things about ELACompost and the native plants I purchased from them. The staff was incredibly helpful and knowledgeable, and the plants are thriving in my garden. I will definitely be returning for more in the future!'
 
         },
 
@@ -60,7 +60,7 @@ export default {
           <div class="card-reviewer text-left flex">
             <img src="/" alt="Image of  ">
             <div class="px-2" >
-            <strong>{{  testimonial.name }}</strong>
+            <strong class="text-lg">{{  testimonial.name }}</strong>
             <p class="text-sm">{{ testimonial.location }}</p>
               </div>
           </div>
@@ -72,7 +72,7 @@ export default {
 
           </div>
         </div>
-        <p class="mt-8 text-left px-8">{{ testimonial.testimonial }}</p>
+        <p class="mt-8 text-left px-8 text-center">"{{ testimonial.testimonial }}"</p>
       </div>
 
     </div>

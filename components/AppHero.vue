@@ -57,7 +57,7 @@ export default {
     <div class="hero-left-container green-text pt-52 pl-24" data-aos="fade-down" data-aos-delay="300" >
 
       <h1 class="text-6xl mb-16">Join the Native Plant Revolution!</h1>
-      <strong class="title pr-80 text-xl" > home while strengthening the ecosystem of Los Angeles for generations to come. </strong>
+      <strong class="title pr-80 text-xl" > Experience the beauty and benefits of Southern California native plants in your own garden </strong>
 
 
 

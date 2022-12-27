@@ -9,43 +9,43 @@ export default {
           img: '/img/californiapoppy.png',
           title: 'California Poppy',
           rating: '5',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
+          description: 'California Poppy is the state flower of California, and it is a native plant that is known for its orange flowers. It is a drought-tolerant plant that thrives in well-drained soil and full sun. ',
           price: '35',
           link: '/'
 
         },
         {
-          id: 1,
+          id: 2,
           img: '/img/hummingbirdsage.png',
           title: 'Hummingbird Sage',
           rating: '5',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
-          price: '35',
+          description: 'Hummingbird Sage is a native plant that is known for its bright purple flowers that attract hummingbirds and butterflies. It is a low-maintenance plant that is well-suited to dry, sunny areas. ',
+          price: '20',
           link: '/'
 
         },
         {
-          id: 1,
+          id: 3,
           img: '/img/monkeyflower.png',
           title: 'Sticky Monkey Flower',
           rating: '4',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
-          price: '35',
+          description: 'Sticky Monkey Flower is a native plant that is prized for its beautiful flowers. It is a popular choice for hummingbirds and butterflies, and its sticky leaves help to prevent erosion on slopes.',
+          price: '30',
           link: '/'
 
         },
         {
-          id: 1,
+          id: 4,
           img: '/img/redflower.png',
           title: 'Lemonade Berry',
           rating: '4.7',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
-          price: '35',
+          description: 'Lemonade Berry is a native plant that is known for its bright green leaves and clusters of small, yellow flowers. It is a hardy plant that can tolerate drought and grows well in sunny areas.',
+          price: '20',
           link: '/'
 
         },
         {
-          id: 1,
+          id: 5,
           img: '/img/californiapoppy.png',
           title: 'California Poppy',
           rating: '5',
@@ -55,7 +55,7 @@ export default {
 
         },
         {
-          id: 1,
+          id: 6,
           img: '/img/californiapoppy.png',
           title: 'California Poppy',
           rating: '4.8',
@@ -127,7 +127,7 @@ export default {
   max-width: 85%;
   overflow: scroll;
   padding: 2.5rem;
-  //box-shadow: inset 6px 0 10px rgba(0,0,0,0.1)
+
 }
 
 .plant-card {
