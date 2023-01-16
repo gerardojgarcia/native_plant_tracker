@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "aos": "^2.3.4",
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "vue-gtag": "^2.0.1",
+    "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.1.3"

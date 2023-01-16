@@ -79,9 +79,14 @@ export default {
 
     <div class="plant-cards m-auto  overflow-x-scroll flex flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
 
+<<<<<<< HEAD
 
       <!--Plant Card -->
         <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" d>
+=======
+      <!--Plant Card-->
+        <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">
+>>>>>>> refs/remotes/origin/main
 
           <img  :src="plant.img" alt="" >
           <div class="flex flex-col">
