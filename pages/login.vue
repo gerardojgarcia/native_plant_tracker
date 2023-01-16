@@ -22,7 +22,7 @@ export default {
       <label for="email">Email</label>
       <input type="text" name="name" placeholder="First Name" class="shadow-inner-lg">
       <label for="password">Password</label>
-      <input type="text" name="name" placeholder="Enter your password" class="shadow-inner-lg">
+      <input type="password" name="name" placeholder="Enter your password" class="shadow-inner-lg">
 
 
     <AppButton link="Login" class="mt-12 self-end"/>

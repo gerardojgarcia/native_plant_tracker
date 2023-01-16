@@ -3,13 +3,14 @@ export default {
   name: "AppButton",
   props: {
     link: String,
+    to: String
   }
 }
 </script>
 
 <template>
   <div >
-    <NuxtLink class="app-link text-white rounded-lg px-8 py-3 bg-green-800 shadow-md hover:drop-shadow-lg" to="login">{{link}} </NuxtLink>
+    <NuxtLink class="app-link text-white rounded-lg px-8 py-3 bg-green-800 shadow-md hover:drop-shadow-lg" :to="to" >{{link}} </NuxtLink>
   </div>
 </template>
 

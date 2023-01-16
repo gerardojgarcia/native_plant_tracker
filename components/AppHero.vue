@@ -8,19 +8,19 @@ export default {
       images: [
         {
           id:1,
-          src: '/img/californiapoppy.png',
+          src: '/img/california_poppy_watercolor.png',
           alt: "image of california poppy"
 
         },
         {
           id:2,
-          src: '/img/hummingbirdsage.png',
+          src: '/img/hummingbird_sage_watercolor.png',
           alt: "image of hummingbird sage"
 
         },
         {
           id:3,
-          src: '/img/monkeyflower.png',
+          src: '/img/monkey_flower_watercolor.png',
           alt: "image of sticky monkeyflower"
 
         },
@@ -64,7 +64,7 @@ export default {
 
       <div class="flex justify-between w-1/2 items-center">
 
-        <AppButton link="Show Me How" class="mt-24"/>
+        <AppButton link="Show Me How" to="species" class="mt-24"/>
         <AppVideoButton title="Watch Video"/>
 
       </div>

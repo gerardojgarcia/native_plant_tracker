@@ -6,7 +6,7 @@ export default {
       items: [
         {
           id: 1,
-          img: '/img/californiapoppy.png',
+          img: '/img/california_poppy_watercolor.png',
           title: 'California Poppy',
           rating: '5',
           description: 'California Poppy is the state flower of California, and it is a native plant that is known for its orange flowers. It is a drought-tolerant plant that thrives in well-drained soil and full sun. ',
@@ -16,17 +16,17 @@ export default {
         },
         {
           id: 2,
-          img: '/img/hummingbirdsage.png',
+          img: '/img/hummingbird_sage_watercolor.png',
           title: 'Hummingbird Sage',
           rating: '5',
-          description: 'Hummingbird Sage is a native plant that is known for its bright purple flowers that attract hummingbirds and butterflies. It is a low-maintenance plant that is well-suited to dry, sunny areas. ',
+          description: 'Hummingbird Sage is a native plant that is known for its bright purple flowers that attract hummingbirds and butterflies. It is well-suited to dry, sunny areas. ',
           price: '20',
           link: '/'
 
         },
         {
           id: 3,
-          img: '/img/monkeyflower.png',
+          img: '/img/monkey_flower_watercolor.png',
           title: 'Sticky Monkey Flower',
           rating: '4',
           description: 'Sticky Monkey Flower is a native plant that is prized for its beautiful flowers. It is a popular choice for hummingbirds and butterflies, and its sticky leaves help to prevent erosion on slopes.',
@@ -79,7 +79,8 @@ export default {
 
     <div class="plant-cards m-auto  overflow-x-scroll flex flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
 
-      <!--Plant Card-->
+
+      <!--Plant Card -->
         <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" d>
 
           <img  :src="plant.img" alt="" >
@@ -98,6 +99,8 @@ export default {
 
             </div>
 
+
+<!--Plant Card Description: keep to 4 lines for card uniformity-->
             <p class="plant-card-description pl-4 py-2 px-4 text-left">
               {{plant.description}}
             </p>
