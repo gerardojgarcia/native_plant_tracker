@@ -12,13 +12,13 @@ export default {
     <!--Image Container-->
     <div class="plant-image-container flex flex-row  " data-aos="fade-left" data-aos-duration="450ms">
       <div class="mr-16" >
-        <img src="/img/californiapoppy.png" alt="" height="700px" data-aos="zoom-in-up" >
-        <img src="/img/redflower.png" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up">
+        <img src="/img/californiapoppy.webp" alt="" height="700px" data-aos="zoom-in-up" >
+        <img src="/img/redflower.webp" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up">
       </div>
 
       <div class="two-image-container flex flex-col ">
-        <img src="/img/hummingbirdsage.png" alt="" height="350px" width="200px" style="margin-left: 50px" data-aos="zoom-in-up">
-        <img src="/img/monkeyflower.png" alt="" height="350px" data-aos="zoom-in-up">
+        <img src="/img/hummingbirdsage.webp" alt="" height="350px" width="200px" style="margin-left: 50px" data-aos="zoom-in-up">
+        <img src="/img/monkeyflower.webp" alt="" height="350px" data-aos="zoom-in-up">
       </div>
 
     </div>
