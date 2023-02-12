@@ -13,11 +13,14 @@ export default {
       <NuxtLink to="/"  class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link">Home</NuxtLink>
     </li>
     <li>
-      <NuxtLink to="species"  class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link">Species</NuxtLink>
+      <NuxtLink to="/species"  class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link">Species</NuxtLink>
     </li>
 
     <li>
-      <NuxtLink to="learn" class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link"> Learn More</NuxtLink>
+      <NuxtLink to="/learn" class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link"> Compost</NuxtLink>
+    </li>
+    <li>
+      <NuxtLink to="/forage" class="rounded-lg  hover:bg-green-800 hover:text-white hover:shadow-md  p-4 link"> Forage</NuxtLink>
     </li>
   </ul>
 

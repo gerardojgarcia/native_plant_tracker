@@ -8,37 +8,37 @@ export default {
       images: [
         {
           id:1,
-          src: '/img/california_poppy_watercolor.png',
+          src: '/img/california_poppy_watercolor.webp',
           alt: "image of california poppy"
 
         },
         {
           id:2,
-          src: '/img/hummingbird_sage_watercolor.png',
+          src: '/img/hummingbird_sage_watercolor.webp',
           alt: "image of hummingbird sage"
 
         },
         {
           id:3,
-          src: '/img/monkey_flower_watercolor.png',
+          src: '/img/monkey_flower_watercolor.webp',
           alt: "image of sticky monkeyflower"
 
         },
         {
           id:4,
-          src: '/img/redflower.png',
+          src: '/img/redflower.webp',
           alt: "image of california poppy"
 
         },
         {
           id:5,
-          src: '/img/Screenshot from 2022-11-29 19-59-37.png',
+          src: '/img/Screenshot from 2022-11-29 19-59-37.webp',
           alt: "image of california poppy"
 
         },
         {
           id:6,
-          src: '/img/Screenshot from 2022-11-29 19-59-50.png',
+          src: '/img/Screenshot from 2022-11-29 19-59-50.webp',
           alt: "image of california poppy"
 
         },

@@ -11,7 +11,7 @@ export default {
 
       <div>
         <div class="mb-12"><strong class="footer-column-title "> ELACompost</strong></div>
-        <p class="text-green-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda</p>
+        <p class="text-green-800">Experience the beauty and benefits of Southern California native plants in your own garden</p>
       </div>
       <div>
         <div class="mb-12"><strong class="footer-column-title">About Us</strong></div>
@@ -36,7 +36,7 @@ export default {
         <ul class="space-y-2">
           <li>215 Blaze Ave, East Los Angeles </li>
           <li>123.456.7890</li>
-          <li>example@gmail.com</li>
+          <li>hi@elacompost.com</li>
 
         </ul>
       </div>

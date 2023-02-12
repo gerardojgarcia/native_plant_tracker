@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-<section class="mt-24">
+<div class="mt-24">
 
 <AppHero/>
   <AppFeatures/>
@@ -14,7 +14,7 @@ export default {
   <AppTestimonials/>
   <AppFooter/>
 
-</section>
+</div>
 </template>
 
 <style scoped>

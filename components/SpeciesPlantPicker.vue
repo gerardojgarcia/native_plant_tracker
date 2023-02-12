@@ -8,7 +8,7 @@ export default {
 
 
 
-<template lang="html">
+<template >
 
 
   <div class="plant-box">

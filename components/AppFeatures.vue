@@ -7,21 +7,21 @@ export default {
       features: [
         {
           id: 1,
-          title: "Collect & Mix",
+          title: "Composting",
           description: 'Collect a mix of brown and green materials, such as dry leaves and kitchen scraps, and add them to your compost bin or pile.',
 
         },
 
         {
           id: 2,
-          title: "Monitor & Maintain",
+          title: "Foraging",
           description: 'Monitor and maintain the compost, keeping it moist and well-aerated to help the microbes break down the organic matter.',
 
 
         },
         {
           id: 3,
-          title: "Use & Grow",
+          title: "Garden Design",
           description: 'Use the finished compost as a natural fertilizer and soil amendment for your garden or landscape.',
 
 

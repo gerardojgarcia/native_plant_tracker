@@ -6,7 +6,7 @@ export default {
       items: [
         {
           id: 1,
-          img: '/img/california_poppy_watercolor.png',
+          img: '/img/california_poppy_watercolor.webp',
           title: 'California Poppy',
           rating: '5',
           description: 'California Poppy is the state flower of California, and it is a native plant that is known for its orange flowers. It is a drought-tolerant plant that thrives in well-drained soil and full sun. ',
@@ -16,7 +16,7 @@ export default {
         },
         {
           id: 2,
-          img: '/img/hummingbird_sage_watercolor.png',
+          img: '/img/hummingbird_sage_watercolor.webp',
           title: 'Hummingbird Sage',
           rating: '5',
           description: 'Hummingbird Sage is a native plant that is known for its bright purple flowers that attract hummingbirds and butterflies. It is well-suited to dry, sunny areas. ',
@@ -26,7 +26,7 @@ export default {
         },
         {
           id: 3,
-          img: '/img/monkey_flower_watercolor.png',
+          img: '/img/monkey_flower_watercolor.webp',
           title: 'Sticky Monkey Flower',
           rating: '4',
           description: 'Sticky Monkey Flower is a native plant that is prized for its beautiful flowers. It is a popular choice for hummingbirds and butterflies, and its sticky leaves help to prevent erosion on slopes.',
@@ -36,7 +36,7 @@ export default {
         },
         {
           id: 4,
-          img: '/img/redflower.png',
+          img: '/img/redflower.webp',
           title: 'Lemonade Berry',
           rating: '4.7',
           description: 'Lemonade Berry is a native plant that is known for its bright green leaves and clusters of small, yellow flowers. It is a hardy plant that can tolerate drought and grows well in sunny areas.',
@@ -46,7 +46,7 @@ export default {
         },
         {
           id: 5,
-          img: '/img/californiapoppy.png',
+          img: '/img/californiapoppy.webp',
           title: 'California Poppy',
           rating: '5',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
@@ -56,7 +56,7 @@ export default {
         },
         {
           id: 6,
-          img: '/img/californiapoppy.png',
+          img: '/img/californiapoppy.webp',
           title: 'California Poppy',
           rating: '4.8',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque optio provident quasi similique voluptate. ',
