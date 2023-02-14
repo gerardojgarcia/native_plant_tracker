@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-  <section class="pb-36 grid grid-cols-2 items-center " data-aos="fade-up" data-aos-duration="300ms">
+  <section class="pb-36 flex flex-col md:grid grid-cols-2 items-center " data-aos="fade-up" data-aos-duration="300ms">
 
 
     <!--Image Container-->
-    <div class="plant-image-container flex flex-row  " data-aos="fade-left" data-aos-duration="450ms">
-      <div class="mr-16" >
+    <div class="plant-image-container flex md:flex-row flex-col  " data-aos="fade-left" data-aos-duration="450ms">
+      <div class="md: mr-16" >
         <img src="/img/californiapoppy.webp" alt="" height="700px" data-aos="zoom-in-up" >
         <img src="/img/redflower.webp" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up">
       </div>
@@ -26,11 +26,11 @@ export default {
 
       <!--TExt container-->
       <h3 class="text-6xl text-green-800">Discover the benefits of planting native in Southern California</h3>
-      <p class="plant-description pl-60 text-gray-600 text-right text-lg"><span>Shop our wide selection of native plants, sourced from the best local growers in Southern California</span></p>
+      <p class="plant-description md:pl-60 text-gray-600 text-right text-lg"><span>Shop our wide selection of native plants, sourced from the best local growers in Southern California</span></p>
 
-      <div class="flex justify-end w-full items-center self-end">
+      <div class="flex md:flex-row flex-col justify-end w-full items-center self-end">
 
-        <AppButton link="Show Me How" to="species" class="mr-8 mt-24"/>
+        <AppButton link="Show Me How" to="species" class="md:mr-8 mt-24"/>
         <AppVideoButton title="Watch Video"/>
 
         
@@ -60,7 +60,8 @@ img:hover  {
 
 }
 .plant-image-container {
-  max-height: 700px;
+min-height: 700px;
+margin-bottom: 4rem;
 
 
 }

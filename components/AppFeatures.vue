@@ -42,9 +42,9 @@ export default {
   <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Explore</p>
 <h2 class="text-3xl pb-32" data-aos="zoom-in-up">Find all the information you need.</h2>
 
-    <div class=" grid grid-cols-3 feature-card-container m-auto">
+    <div class=" flex flex-col md:grid grid-cols-3 feature-card-container m-auto">
 
-      <div class=" features-card flex flex-col items-center text-center feature-card rounded p-16 mx-8 space-y-8 shadow-lg hover:shadow-2xl  bg-gray-100" data-aos="flip-left" data-aos-duration="1500" v-for="feature in features">
+      <div class=" features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 space-y-8 shadow-lg hover:shadow-2xl  bg-gray-100" data-aos="flip-left" data-aos-duration="1500" v-for="feature in features">
         <img :src="feature.icon" alt="icon" class="feature-icon  bg-gray-200 ">
             <strong class="text-xl">{{feature.title}}</strong>
           <p>{{feature.description}}</p>

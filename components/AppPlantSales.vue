@@ -77,14 +77,14 @@ export default {
     <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Find Your Plant</p>
     <h2 class="text-4xl pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h2>
 
-    <div class="plant-cards m-auto  overflow-x-scroll flex flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
+    <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
 
 
         <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">
 
           <img  :src="plant.img" alt="" >
           <div class="flex flex-col">
-            <div class="self-start pl-4 py-2 flex  justify-between w-full" ><strong class=" plant-title" >{{plant.title}}</strong>
+            <div class="self-start md:pl-4 py-2 flex flex-row justify-between w-full" ><strong class=" plant-title" >{{plant.title}}</strong>
 
 
               <!--Plant Card Rating-->
@@ -105,9 +105,9 @@ export default {
             </p>
 
 
-          <div class="flex justify-between items-center w-full mb-6 my-6">
+          <div class="flex flex-col md:flex-row justify-between items-center w-full mb-6 my-6">
             <p class="plant-card-price self-start pl-4 text-xl font-bold "> Price: ${{plant.price}}</p>
-            <AppButton class="self-center mr-8" link="Buy Now"/>
+            <AppButton class="self-center mt-8 md:mr-8" link="Buy Now"/>
 
           </div>
 
@@ -128,17 +128,18 @@ export default {
 .plant-cards {
   max-width: 85%;
   overflow: scroll;
-  padding: 2.5rem;
+  padding: min(.5rem, 2.5rem);
 
 }
 
 .plant-card {
   min-width: 25%;
   min-height: 80%;
+  margin-bottom: 2rem;
 }
 
 .plant-title {
-  font-size:1vw;
+  font-size: max(1vw, 1vw, 1.2rem);
 }
 
 .gold-star {

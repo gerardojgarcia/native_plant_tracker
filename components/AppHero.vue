@@ -52,17 +52,17 @@ export default {
 </script>
 
 <template>
-  <section id="hero" class="grid grid-cols-2 px-16 h-screen ">
+  <section id="hero" class="flex flex-col md:grid grid-cols-2 px-16 md:h-screen ">
 
-    <div class="hero-left-container green-text pt-52 pl-24" data-aos="fade-down" data-aos-delay="300" >
+    <div class="hero-left-container green-text md:pt-52 md:pl-24" data-aos="fade-down" data-aos-delay="300" >
 
       <h1 class="text-6xl mb-16">Join the Native Plant Revolution!</h1>
-      <strong class="title pr-80 text-xl" > Experience the beauty and benefits of Southern California native plants in your own garden </strong>
+      <strong class="title md:pr-80 text-xl" > Experience the beauty and benefits of Southern California native plants in your own garden </strong>
 
 
 
 
-      <div class="flex justify-between w-1/2 items-center">
+      <div class="flex md:flex-row flex-col justify-between md:w-1/2 items-center">
 
         <AppButton link="Show Me How" to="species" class="mt-24"/>
         <AppVideoButton title="Watch Video"/>
