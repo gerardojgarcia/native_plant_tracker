@@ -14,7 +14,7 @@ export default {
           title: "Composting",
           description:
             "Collect a mix of brown and green materials, such as dry leaves and kitchen scraps, and add them to your compost bin or pile.",
-          icon: "fa-solid fa-recycle",
+          cardicon: "fa-solid fa-recycle",
         },
 
         {
@@ -22,14 +22,14 @@ export default {
           title: "Foraging",
           description:
             "Monitor and maintain the compost, keeping it moist and well-aerated to help the microbes break down the organic matter.",
-          icon: "fa-solid fa-bowl-food",
+          cardicon: "fa-solid fa-bowl-food",
         },
         {
           id: 3,
           title: "Garden Design",
           description:
             "Use the finished compost as a natural fertilizer and soil amendment for your garden or landscape.",
-          icon: "fa-solid fa-worm",
+          cardicon: "fa-solid fa-worm",
         },
       ],
     };
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-  <section
+  <div
     id="features "
     class="w-full pb-40 flex flex-col items-center text-green-800"
     data-aos="fade-up"
@@ -49,21 +49,21 @@ export default {
       Find all the information you need.
     </h2>
 
-    <div class="flex flex-col md:grid grid-cols-3 feature-card-container m-auto">
+    <div class="flex flex-col md:grid grid-cols-3 feature-card-container m-auto" v-for="feature in features"
+        :key="feature.id">
       <div
         class="features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 space-y-8 shadow-lg hover:shadow-2xl bg-gray-100"
         data-aos="flip-left"
         data-aos-duration="1500"
-        v-for="feature in features"
-        :key="feature.id"
+        
       >
-        <font-awesome-icon :icon="feature.icon" class="text-3xl text-green-800" />
+        <font-awesome-icon :icon="feature.cardicon" class="text-3xl text-green-800" ></font-awesome-icon>
 
         <strong class="text-xl">{{ feature.title }}</strong>
         <p>{{ feature.description }}</p>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <style scoped>

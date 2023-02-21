@@ -50,7 +50,7 @@ export default {
     <h4 class="text-4xl text-green-800 pb-8"  data-aos="fade-up" data-aos-duration="300ms">Trusted by Thousands of Happy Planters</h4>
     <p class="text-xl mb-24">They found the information they needed to help reclaim their yards and plan out a sustainable, beautiful oasis in the city.</p>
 <!--plant testimonial flex container-->
-    <div class="plant-testimonials w-full md:w-4/5 flex flex-col md:flex-row justify-center m-auto space-x-8"  data-aos="fade-up" data-aos-duration="300ms">
+    <div class="plant-testimonials w-full md:w-4/5 flex flex-col md:flex-row justify-center m-auto md:space-x-8"  data-aos="fade-up" data-aos-duration="300ms">
 
 
 
@@ -58,7 +58,7 @@ export default {
       <div class="plant-testimonial-card flex flex-col md:justify-start rounded-lg bg-gray-100 pt-4 pb-8 mb-6 shadow-lg hover:shadow-2xl  " v-for="testimonial in testimonials" :key="testimonial.id">
 
         <!--Testimonial Card Header-->
-        <div class="card-header flex justify-between items-center px-8">
+        <div class="card-header flex justify-between items-center px-4 md:px-8">
 
 
 

@@ -18,7 +18,7 @@ export default {
         <NuxtLink
           to="/species"
           class="rounded-lg hover:bg-green-800 hover:text-white hover:shadow-md p-4 link"
-          >Species</NuxtLink
+          >Garden</NuxtLink
         >
       </li>
 

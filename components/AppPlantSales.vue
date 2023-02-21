@@ -91,7 +91,7 @@ export default {
               <div class="flex items-center justify-end space-x-2 pr-4 w-24">
 
 
-                <img class="gold-star" src="/img/Gold_Star.svg" > <p class=" text-lg ">{{plant.rating}}</p>
+                <nuxt-img class="gold-star" src="/img/Gold_Star.svg" format="webp"/> <p class=" text-lg ">{{plant.rating}}</p>
 
               </div>
 

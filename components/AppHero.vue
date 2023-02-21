@@ -32,12 +32,12 @@ export default {
         },
         {
           id: 5,
-          src: "/img/Screenshot from 2022-11-29 19-59-37.webp",
+          src: "/img/white-flower.webp",
           alt: "image of california poppy",
         },
         {
           id: 6,
-          src: "/img/Screenshot from 2022-11-29 19-59-50.webp",
+          src: "/img/fuschia.webp",
           alt: "image of california poppy",
         },
       ],
@@ -68,7 +68,7 @@ export default {
       data-aos="fade-left"
       data-aos-delay="300"
     >
-      <div class="images m-4 overflow-hidden" v-for="image in images" :key="image.src">
+      <div class="images hidden md:flex m-4 overflow-hidden" v-for="image in images" :key="image.src">
         <nuxt-img
           class="image rounded-xl shadow-lg border-green-700 hover:shadow-2xl"
           :src="image.src"

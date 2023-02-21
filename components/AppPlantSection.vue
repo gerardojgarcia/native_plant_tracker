@@ -12,8 +12,8 @@ export default {
     <!--Image Container-->
     <div class="plant-image-container flex md:flex-row flex-col  " data-aos="fade-left" data-aos-duration="450ms">
       <div class="md: mr-16" >
-        <img src="/img/californiapoppy.webp" alt="" height="700px" data-aos="zoom-in-up" >
-        <img src="/img/redflower.webp" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up">
+        <nuxt-img src="/img/californiapoppy.webp" alt="" height="700px" data-aos="zoom-in-up" />
+        <nuxt-img src="/img/redflower.webp" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up"/>
       </div>
 
       <div class="two-image-container flex flex-col ">
@@ -22,7 +22,7 @@ export default {
       </div>
 
     </div>
-    <div class="space-y-16 p-24 flex flex-col" data-aos="fade-right" data-aos-duration="450ms">
+    <div class="space-y-16 px-6 md:p-24 flex flex-col" data-aos="fade-right" data-aos-duration="450ms">
 
       <!--TExt container-->
       <h3 class="text-6xl text-green-800">Discover the benefits of planting native in Southern California</h3>

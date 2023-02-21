@@ -10,7 +10,7 @@ export default {
         description: "text text ext text",
         tags: "non-forage,",
       },
-    };
+    }
   },
 };
 </script>
@@ -18,8 +18,8 @@ export default {
   <div>
     <div class="flex flex-col mt-24">
       <div class="px-8">
-        <div class="py-6 flex hero w-full">
-          <div class="hero-header self-center pr-16">
+        <div class="py-6 flex flex-col md:flex-row hero w-full">
+          <div class="hero-header self-center md:pr-16">
             <h1 class="text-6xl font-bold pb-6">The Power of Foraging</h1>
             <strong class="text-2xl">Learn how to find nature's bounty!</strong>
           </div>
@@ -30,7 +30,7 @@ export default {
             height="75vh"
           />
         </div>
-        <div class="space-y-16 px-16 w-5/6 m-auto text-lg mt-24">
+        <div class="space-y-16 px-4 md:px-16 md:w-5/6 m-auto text-lg mt-24">
           <strong class="text-3xl">
             Foraging Best Practices in Los Angeles: A Guide to Sustainable
             Harvesting</strong
