@@ -34,4 +34,14 @@ export default defineNuxtConfig({
 			crawlLinks: true,
 		}
 	},
+	css: [
+		'@fortawesome/fontawesome-svg-core/styles.css'
+],
+
+build: {
+		transpile: [
+				'@fortawesome/fontawesome-svg-core'
+
+		]
+},
 })

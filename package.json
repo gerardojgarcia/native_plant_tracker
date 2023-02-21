@@ -9,7 +9,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "aos": "^2.3.4",
     "nuxt": "3.1.2",
     "vue-gtag": "^2.0.1",
