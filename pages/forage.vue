@@ -36,38 +36,59 @@ export default {
             Harvesting</strong
           >
           <article>
-            Foraging is the act of searching for and gathering wild food, whether it be
-            fruits, nuts, vegetables, or herbs. In Los Angeles, there are a variety of
-            natural spaces where foraging can take place, including parks, public lands,
-            and even private property (with permission, of course). However, it's
-            important to remember that foraging should always be done in a sustainable
-            manner, to ensure the health and longevity of the local ecosystem. In this
-            article, we'll go over some of the best practices to follow when foraging in
-            Los Angeles. Know the Laws and Regulations Before you start foraging, it's
-            important to familiarize yourself with the local laws and regulations
-            regarding foraging. In Los Angeles, foraging is generally allowed in public
-            parks and on public lands, but there may be specific rules regarding what can
-            be harvested and how much. It's also important to avoid foraging on private
-            property without permission, as this can be considered trespassing.
+            <p class="text-2xl">
+              Foraging is the act of searching for and gathering wild food, whether it be
+              fruits, nuts, vegetables, or herbs. In Los Angeles, there are a variety of
+              natural spaces where foraging can take place, including parks, public lands,
+              and even private property (with permission, of course).
+            </p> 
+            
+            </article>
+            <article>
+            
+            <p>
+              However, it's
+              important to remember that foraging should always be done in a sustainable
+              manner, to ensure the health and longevity of the local ecosystem. In this
+              article, we'll go over some of the best practices to follow when foraging in
+              Los Angeles. Know the Laws and Regulations Before you start foraging, it's
+              important to familiarize yourself with the local laws and regulations
+              regarding foraging. In Los Angeles, foraging is generally allowed in public
+              parks and on public lands, but there may be specific rules regarding what can
+              be harvested and how much. It's also important to avoid foraging on private
+              property without permission, as this can be considered trespassing.
+            </p>
           </article>
+          <div  class="space-y-8 text-xl  ">
           <article>
-            Identify the Plants and Fungi Before harvesting any wild plants or fungi, it's
-            important to properly identify them. This will help you avoid harvesting any
-            toxic or endangered species, and also ensure that you're harvesting at the
-            right time of year. There are many resources available online and in print to
-            help with plant identification, including guidebooks and local foraging
-            groups. Harvest Sustainably When foraging, it's important to harvest
-            sustainably to ensure the health of the local ecosystem. This means taking
-            only what you need and leaving enough for the plant or fungi to continue
-            growing and reproducing. As a general rule, avoid harvesting more than one
-            third of any given plant or fungi, and never harvest endangered species or
-            those that are protected by law. Respect the Environment Foraging should
-            always be done with respect for the local environment. This means avoiding
-            damage to plants or their surrounding habitat, and leaving the area as you
-            found it. Never uproot plants, as this can damage the surrounding soil and
-            potentially harm the plant.
-          </article>
-          <article>
+            <strong>Identify the Plants and Fungi</strong> 
+            <p>
+              Before harvesting any wild plants or fungi, it's
+              important to properly identify them. This will help you avoid harvesting any
+              toxic or endangered species, and also ensure that you're harvesting at the
+              right time of year. There are many resources available online and in print to
+              help with plant identification, including guidebooks and local foraging
+              groups.</p>
+            </article>  
+              <article>
+                 <strong>Harvest Sustainably</strong> <p>When foraging, it's important to harvest
+                sustainably to ensure the health of the local ecosystem. This means taking
+                only what you need and leaving enough for the plant or fungi to continue
+                growing and reproducing. As a general rule, avoid harvesting more than one
+                third of any given plant or fungi, and never harvest endangered species or
+                those that are protected by law.
+              </p>
+            </article>
+            <article>
+               <strong>Respect the Environment</strong> <p> Foraging should 
+              always be done with respect for the local environment. This means avoiding
+              damage to plants or their surrounding habitat, and leaving the area as you
+              found it. Never uproot plants, as this can damage the surrounding soil and
+              potentially harm the plant
+            </p>.
+            </article>
+            </div>
+            <article>
             Additionally, be aware of any animals that may be using the area for food or
             shelter, and avoid disrupting their habitat. Clean and Prepare Properly Before
             consuming any wild plants or fungi, it's important to clean and prepare them
@@ -81,7 +102,8 @@ export default {
             fungi, harvesting sustainably, respecting the environment, and cleaning and
             preparing properly, you can enjoy the many benefits of foraging while
             minimizing your impact on the natural world.
-          </article>
+            </article>
+
         </div>
       </div>
     </div>

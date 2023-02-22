@@ -75,7 +75,7 @@ export default {
   <section class="pt-32 text-center pb-32">
 
     <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Find Your Plant</p>
-    <h2 class="text-4xl pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h2>
+    <h4 class="text-4xl pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h4>
 
     <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
 
@@ -91,7 +91,7 @@ export default {
               <div class="flex items-center justify-end space-x-2 pr-4 w-24">
 
 
-                <nuxt-img class="gold-star" src="/img/Gold_Star.svg" format="webp"/> <p class=" text-lg ">{{plant.rating}}</p>
+                <nuxt-img class="gold-star" src="/img/Gold_Star.svg" alt="Image of a gold star" format="webp"/> <p class=" text-lg ">{{plant.rating}}</p>
 
               </div>
 

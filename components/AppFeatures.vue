@@ -38,32 +38,30 @@ export default {
 </script>
 
 <template>
-  <div
+  <section  
     id="features "
     class="w-full pb-40 flex flex-col items-center text-green-800"
     data-aos="fade-up"
     data-aos-duration="300ms"
   >
-    <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Explore</p>
-    <h2 class="text-3xl pb-32" data-aos="zoom-in-up">
-      Find all the information you need.
-    </h2>
+    <div>
+      <p class="pre-title text-gray-500 text-center text-lg pt-8" data-aos="zoom-in-up">Explore</p>
+      <h2 class="text-3xl pb-32" data-aos="zoom-in-up">
+        Find all the information you need.
+      </h2>
+    </div>
 
-    <div class="flex flex-col md:grid grid-cols-3 feature-card-container m-auto" v-for="feature in features"
-        :key="feature.id">
-      <div
-        class="features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 space-y-8 shadow-lg hover:shadow-2xl bg-gray-100"
-        data-aos="flip-left"
-        data-aos-duration="1500"
-        
-      >
-        <font-awesome-icon :icon="feature.cardicon" class="text-3xl text-green-800" ></font-awesome-icon>
+    <div class="feature-card-container flex flex-col md:flex-row  m-auto">
+      <div class="features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 md:space-y-8 shadow-lg hover:shadow-2xl bg-gray-100" data-aos="flip-left" data-aos-duration="1500" v-for="features in features" :key="features.id">
+       <!-- <font-awesome-icon :icon="features.cardicon" class="text-3xl text-green-800" /> -->
 
-        <strong class="text-xl">{{ feature.title }}</strong>
-        <p>{{ feature.description }}</p>
+       
+
+        <strong class="text-3xl">{{ features.title }}</strong>
+        <p>{{ features.description }}</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>

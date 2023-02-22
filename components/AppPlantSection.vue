@@ -17,10 +17,10 @@ export default {
       </div>
 
       <div class="two-image-container flex flex-col ">
-        <img src="/img/hummingbirdsage.webp" alt="" height="350px" width="200px" style="margin-left: 50px" data-aos="zoom-in-up">
-        <img src="/img/monkeyflower.webp" alt="" height="350px" data-aos="zoom-in-up">
+        <nuxt-img src="/img/hummingbirdsage.webp" alt="" height="350px" width="200px" style="margin-left: 50px" data-aos="zoom-in-up"/>
+        <nuxt-img src="/img/monkeyflower.webp" alt="" height="350px" data-aos="zoom-in-up"/>
       </div>
-
+      
     </div>
     <div class="space-y-16 px-6 md:p-24 flex flex-col" data-aos="fade-right" data-aos-duration="450ms">
 
@@ -30,7 +30,7 @@ export default {
 
       <div class="flex md:flex-row flex-col justify-end w-full items-center self-end">
 
-        <AppButton link="Show Me How" to="species" class="md:mr-8 mt-24"/>
+        <AppButton link="Garden Best Practices" to="species" class="md:mr-8 mt-24"/>
         <AppVideoButton title="Watch Video"/>
 
         

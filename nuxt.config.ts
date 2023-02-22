@@ -40,8 +40,10 @@ export default defineNuxtConfig({
 
 build: {
 		transpile: [
-				'@fortawesome/fontawesome-svg-core'
+				'@fortawesome/fontawesome-svg-core',
+				'@nuxtjs/fortawesome'
 
 		]
 },
+ssr: process.env.NODE_ENV !== "development"
 })
