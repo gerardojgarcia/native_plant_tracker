@@ -7,7 +7,7 @@ export default {
 <template>
   <section id="footer" class="py-16">
 
-    <div class="footer-link-grid flex flex-col md:grid grid-cols-4 px-32 m-auto">
+    <div class="footer-link-grid flex flex-col md:grid grid-cols-4 px-6 md:px-32 m-auto">
 
       <div>
         <div class="mb-12"><strong class="footer-column-title "> ELACompost</strong></div>

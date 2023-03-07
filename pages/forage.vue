@@ -88,6 +88,7 @@ export default {
             </p>.
             </article>
             </div>
+            
             <article>
             Additionally, be aware of any animals that may be using the area for food or
             shelter, and avoid disrupting their habitat. Clean and Prepare Properly Before

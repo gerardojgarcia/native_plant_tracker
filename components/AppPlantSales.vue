@@ -82,7 +82,7 @@ export default {
 
         <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">
 
-          <img  :src="plant.img" alt="" >
+          <img  :src="plant.img" alt="Image of plant" >
           <div class="flex flex-col">
             <div class="self-start md:pl-4 py-2 flex flex-row justify-between w-full" ><strong class=" plant-title" >{{plant.title}}</strong>
 

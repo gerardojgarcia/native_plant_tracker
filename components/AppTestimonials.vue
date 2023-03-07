@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-  <section id="testimonials" class="text-center pb-32"  data-aos="fade-up" data-aos-duration="300ms">
+  <section id="testimonials" class="text-center pb-32 p-4"  data-aos="fade-up" data-aos-duration="300ms">
 
     <h5 class="text-4xl text-green-800 pb-8"  data-aos="fade-up" data-aos-duration="300ms">Trusted by Thousands of Happy Planters</h5>
     <p class="text-xl mb-24">They found the information they needed to help reclaim their yards and plan out a sustainable, beautiful oasis in the city.</p>
