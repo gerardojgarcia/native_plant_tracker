@@ -11,7 +11,7 @@ export default {
 
     <!--Image Container-->
     <div class="plant-image-container flex md:flex-row flex-col  " data-aos="fade-left" data-aos-duration="450ms">
-      <div class="md: mr-16" >
+      <div class="md:mr-16" >
         <nuxt-img src="/img/californiapoppy.webp" alt="" height="700px" data-aos="zoom-in-up" />
         <nuxt-img src="/img/redflower.webp" alt="" height="350px" width="200px" style="margin-left: 200px" data-aos="zoom-in-up"/>
       </div>

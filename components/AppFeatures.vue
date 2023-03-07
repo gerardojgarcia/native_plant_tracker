@@ -46,7 +46,7 @@ export default {
   >
     <div>
       <p class="pre-title text-gray-500 text-center text-lg pt-8" data-aos="zoom-in-up">Explore</p>
-      <h2 class="text-3xl pb-32" data-aos="zoom-in-up">
+      <h2 class="text-3xl pb-32 text-center" data-aos="zoom-in-up">
         Find all the information you need.
       </h2>
     </div>

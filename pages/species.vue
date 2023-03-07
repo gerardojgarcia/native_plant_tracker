@@ -70,7 +70,15 @@ export default {
           </article>
         </div>
       </div>
+
+<div class="px-6">
+  <iframe class="w-full h-full" src="https://www.youtube.com/embed/6lwG4O7pleo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
     </div>
+
+
   </div>
 </template>
 

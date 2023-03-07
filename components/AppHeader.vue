@@ -6,16 +6,11 @@ export default {
 
 <template>
 <div>
-  <header class=" bg-white flex flex-row justify-between w-full px-16 py-6 z-10">
     <AppHeaderNav/>
 
-    <div class="authentication-links hidden md:flex space-x-8">
-      <NuxtLink to='login'>Sign In</NuxtLink>
-      <AppLinkButton link="Sign Up!" />
-    </div>
 
 
-  </header>
+
 </div>
 </template>
 
