@@ -8,10 +8,10 @@ export default {
   <div>
     <Head>     
      <Title> Composting</Title>      
-     <Meta name="Learn the best practices for composting at home    " content="Learn the best practices for composting at home" />      
+      <Meta name="Learn the best practices for composting at home" content="Learn the best practices for composting at home" ></Meta>
     
      </Head>
-    <div class="flex flex-col mt-24">
+    <div class="flex flex-col mt-24 pb-32">
       <div class="px-8">
         <div class="py-6 flex flex-col md:flex-row hero w-full">
           <div class="hero-header self-center md:pr-16">
@@ -98,7 +98,7 @@ export default {
             </p>
           </article>
 
-          <div class="composting-video ">
+          <div class="composting-video px-16 w-3/4 h-96 m-auto  ">
             <iframe class="w-full h-full" src="https://www.youtube.com/embed/eO4HdrIXnVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>

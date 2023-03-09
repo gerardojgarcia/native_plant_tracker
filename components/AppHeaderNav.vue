@@ -23,7 +23,7 @@ export default {
   <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6 fixed w-full z-10 top-0">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
 
-      <span class="font-bold text-xl tracking-tight">EarthTutor</span>
+      <span class="font-bold text-xl tracking-tight">ElACompost</span>
     </div>
     <span class="text-white hidden md:inline lg:inline">{{message}}</span>
     <div class="block lg:hidden">
@@ -39,7 +39,7 @@ export default {
         <NuxtLink to="forage" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
           Forage
         </NuxtLink>
-        <NuxtLink to="compost" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200">
+        <NuxtLink to="compost" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
           Compost
         </NuxtLink>
         <NuxtLink to="species" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200">

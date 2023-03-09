@@ -15,6 +15,11 @@ export default {
 };
 </script>
 <template>
+  <Head>
+    <Title> Foraging</Title>
+    <Meta name="Learn the best practices for foraging locally" content="Learn the best practices for foraging locally" ></Meta>
+
+  </Head>
   <div>
     <div class="flex flex-col mt-24">
       <div class="px-8">
