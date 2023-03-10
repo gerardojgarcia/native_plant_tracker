@@ -72,12 +72,12 @@ export default {
 </script>
 
 <template>
-  <section class="pt-32 text-center pb-32">
+  <section class="pt-16 text-center pb-32">
 
     <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Find Your Plant</p>
-    <h4 class="text-4xl pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h4>
+    <h4 class="text-4xl px-2 pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h4>
 
-    <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
+    <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row md:space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
 
 
         <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">

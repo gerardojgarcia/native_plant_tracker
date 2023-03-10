@@ -51,7 +51,7 @@ export default {
             </article>
             <article>
             
-            <p>
+            <p class="pt-6">
               However, it's
               important to remember that foraging should always be done in a sustainable
               manner, to ensure the health and longevity of the local ecosystem. In this
@@ -66,8 +66,8 @@ export default {
           </article>
           <div  class="space-y-8 text-xl  ">
           <article>
-            <strong>Identify the Plants and Fungi</strong> 
-            <p>
+            <strong class="text-2xl">Identify the Plants and Fungi</strong>
+            <p class="pt-6">
               Before harvesting any wild plants or fungi, it's
               important to properly identify them. This will help you avoid harvesting any
               toxic or endangered species, and also ensure that you're harvesting at the
@@ -76,7 +76,7 @@ export default {
               groups.</p>
             </article>  
               <article>
-                 <strong>Harvest Sustainably</strong> <p>When foraging, it's important to harvest
+                 <strong class="text-2xl">Harvest Sustainably</strong> <p class="pt-6">When foraging, it's important to harvest
                 sustainably to ensure the health of the local ecosystem. This means taking
                 only what you need and leaving enough for the plant or fungi to continue
                 growing and reproducing. As a general rule, avoid harvesting more than one
@@ -85,7 +85,7 @@ export default {
               </p>
             </article>
             <article>
-               <strong>Respect the Environment</strong> <p> Foraging should 
+               <strong class="text-2xl">Respect the Environment</strong> <p class="pt-6"> Foraging should
               always be done with respect for the local environment. This means avoiding
               damage to plants or their surrounding habitat, and leaving the area as you
               found it. Never uproot plants, as this can damage the surrounding soil and
@@ -113,6 +113,7 @@ export default {
         </div>
       </div>
     </div>
+    <AppFooter/>
   </div>
 </template>
 

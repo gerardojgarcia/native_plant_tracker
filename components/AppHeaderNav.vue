@@ -20,10 +20,10 @@ export default {
 </script>
 
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6 fixed w-full z-10 top-0">
+  <nav class="flex items-center justify-between flex-wrap bg-green-900 bg-opacity-90 p-6 fixed w-full z-10 top-0">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
 
-      <span class="font-bold text-xl tracking-tight">ElACompost</span>
+      <span class="font-bold text-xl tracking-tight">ELACompost</span>
     </div>
     <span class="text-white hidden md:inline lg:inline">{{message}}</span>
     <div class="block lg:hidden">

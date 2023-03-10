@@ -51,14 +51,14 @@ export default {
       </h2>
     </div>
 
-    <div class="feature-card-container flex flex-col md:flex-row  m-auto">
-      <div class="features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 md:space-y-8 shadow-lg hover:shadow-2xl bg-gray-100" data-aos="flip-left" data-aos-duration="1500" v-for="features in features" :key="features.id">
+    <div class="feature-card-container flex  flex-col md:flex-row  m-auto">
+      <div class="features-card flex flex-col items-center text-center feature-card rounded mb-8 p-6 md:p-16 mx-8 md:space-y-10 shadow-lg hover:shadow-2xl bg-gray-100" data-aos="flip-left" data-aos-duration="1500" v-for="features in features" :key="features.id">
        <!-- <font-awesome-icon :icon="features.cardicon" class="text-3xl text-green-800" /> -->
 
        
 
         <strong class="text-3xl">{{ features.title }}</strong>
-        <p>{{ features.description }}</p>
+        <p class="pt-8">{{ features.description }}</p>
       </div>
     </div>
   </section>

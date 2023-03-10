@@ -60,7 +60,7 @@ export default {
 
       <div class="flex md:flex-row flex-col justify-between md:w-1/2 items-center">
         <AppButton link="Learn More" to="species" class="mt-24" />
-        <AppVideoButton title="Watch Video" to="https://youtube.com" />
+        <AppVideoButton title="Watch Video" to="https://www.youtube.com/results?search_query=foraging "  />
       </div>
     </div>
     <div

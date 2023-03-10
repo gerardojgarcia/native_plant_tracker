@@ -44,7 +44,7 @@ export default {
             </article>
             <article>
              <p>
-                <strong class="text-2xl">Small-Sized Homes</strong> <p>
+                <strong class="text-2xl">Small-Sized Homes</strong> <p class="pt-6">
                     If you live in a small apartment or have limited
                     outdoor space, there are still ways to compost effectively. One option is to
                     use a worm bin, which is a container filled with bedding materials and
@@ -63,7 +63,7 @@ export default {
 
           <article>
 
-            <strong class="text-2xl">Medium-Sized Homes</strong> <p>
+            <strong class="text-2xl ">Medium-Sized Homes</strong> <p class="pt-6">
                 If you have a medium-sized home with a backyard or outdoor
                 space, a traditional compost bin may be a good option. These bins can be
                 purchased at hardware stores or made at home using materials such as wood
@@ -79,7 +79,7 @@ export default {
             </p>
           </article>
           <article>
-            <strong class="text-2xl">Large-Sized Homes</strong> <p>
+            <strong class="text-2xl">Large-Sized Homes</strong> <p class="pt-6">
                 If you have a large home with a lot of outdoor space, there
                 are several composting strategies you can use. One option is to create a
                 larger traditional compost pile using materials such as straw bales or
@@ -98,11 +98,39 @@ export default {
             </p>
           </article>
 
-          <div class="composting-video px-16 w-3/4 h-96 m-auto  ">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/eO4HdrIXnVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="composting-video px-2 md:px-16">
+            <iframe   src="https://www.youtube.com/embed/eO4HdrIXnVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
+
+
+    <AppFooter/>
   </div>
 </template>
+
+<style lang="scss" scoped>
+
+
+.composting-video {
+  height: 55rem;
+  object-fit: cover;
+  margin: auto;
+
+
+ @media screen and (max-width:500px){
+   width: 100%;
+   height: 100%;
+ }
+
+}
+
+iframe {
+  width: 100%;
+  height: 100%
+}
+
+
+
+</style>

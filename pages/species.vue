@@ -28,38 +28,41 @@ export default {
           <article>
             <p class="text-2xl">Southern California is known for its beautiful climate, with mild winters and warm, dry summers. While this climate can be challenging for traditional garden design, it also provides a unique opportunity to create a garden that is sustainable and beautiful, using plants that are native to the region. In this article, we'll explore tips for designing a garden with a Southern California native ecosystem in mind.</p></article>
 
-            
+          <AppPlantSales/>
 <article>
 
-  <strong>Choose Native Plants</strong>
-<p>
+  <strong class="text-2xl">Choose Native Plants</strong>
+<p class="pt-6">
   One of the most important considerations when designing a Southern California native ecosystem garden is plant selection. Native plants are adapted to the local climate and require less water and maintenance than non-native species. They also support the local ecosystem by providing food and habitat for local wildlife.
   
   When choosing native plants, consider factors such as sun exposure, soil type, and water availability. Popular native plants in Southern California include California poppy, ceanothus, manzanita, and toyon. These plants are not only beautiful, but also provide important benefits to the local ecosystem.
 </p>
           </article>
-          <article>
-            <strong>Use Mulch and Drought-Tolerant Landscaping Techniques</strong>
 
-<p>
+
+
+          <article>
+            <strong class="text-2xl">Use Mulch and Drought-Tolerant Landscaping Techniques</strong>
+
+<p class="pt-6">
   Another key consideration for designing a Southern California native ecosystem garden is water conservation. In a region with limited water resources, it is important to use mulch and drought-tolerant landscaping techniques to reduce water usage.
   
   Mulch helps to retain soil moisture, reduce weed growth, and regulate soil temperature. It can be made from a variety of materials, including leaves, wood chips, and grass clippings. Drought-tolerant landscaping techniques, such as using permeable paving and rain barrels, can also help to reduce water usage.
 </p>
           </article>
           <article>
-            <strong>Consider Habitat and Wildlife</strong>
+            <strong class="text-2xl">Consider Habitat and Wildlife</strong>
 
-<p>
+<p class="pt-6">
   A key benefit of designing a Southern California native ecosystem garden is the opportunity to create habitat and support local wildlife. When planning your garden, consider elements such as birdhouses, bat boxes, and pollinator-friendly plants to support a variety of local wildlife.
   
   You can also create habitat by using a variety of plant heights and textures to provide hiding places and shelter. Rocks, logs, and water features can also provide important habitat and add interest to your garden.
 </p>
           </article>
           <article>
-            <strong>Incorporate Sustainability Practices</strong>
+            <strong class="text-2xl">Incorporate Sustainability Practices</strong>
 
-<p>
+<p class="pt-6">
   Finally, designing a Southern California native ecosystem garden is an opportunity to incorporate sustainability practices. Consider using organic gardening techniques, such as composting and natural pest control, to reduce the use of synthetic chemicals in your garden.
   
   You can also consider using recycled materials, such as reclaimed wood or salvaged metal, in your garden design. By incorporating sustainable practices, you can create a garden that not only supports the local ecosystem, but also promotes sustainability and environmental health.
@@ -68,18 +71,43 @@ export default {
 </p>
 
           </article>
+          <div class="composting-video px-2 md:px-16    ">
+            <iframe  src="https://www.youtube.com/embed/6lwG4O7pleo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
 
-<div class="px-6">
-  <iframe class="w-full h-full" src="https://www.youtube.com/embed/6lwG4O7pleo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+
 
 
     </div>
 
 
+    <AppFooter/>
+
+
   </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.composting-video {
+  height: 55rem;
+  object-fit: cover;
+  margin: auto;
+
+
+  @media screen and (max-width:500px){
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+iframe {
+  width: 100%;
+  height: 100%
+}
+
+
+
+</style>
