@@ -1,4 +1,12 @@
-# Nuxt 3 Minimal Starter
+# ELACompost Nuxt Website
+
+
+
+A composting and Southern California Native Plant informational site built with Nuxtjs and TailwindCSS. 
+Nuxt modules used include nuxt-image, aos(animate on scroll), 
+
+
+
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

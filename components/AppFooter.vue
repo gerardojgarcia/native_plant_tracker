@@ -11,7 +11,7 @@ export default {
 
       <div>
         <div class="mb-12"><strong class="footer-column-title "> ELACompost</strong></div>
-        <p class="text-green-800">Experience the beauty and benefits of Southern California native plants in your own garden</p>
+        <p class="text-green-800 pr-20">Experience the beauty and benefits of Southern California native plants in your own garden</p>
       </div>
       <div>
         <div class="mb-4 md:mb-12 mt-6"><strong class="footer-column-title">About Us</strong></div>

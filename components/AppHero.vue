@@ -49,14 +49,14 @@ export default {
 <template>
   <section id="hero" class="flex flex-col md:grid grid-cols-2 px-16 md:h-screen">
     <div
-      class="hero-left-container green-text md:pt-52 md:pl-24"
+      class="hero-left-container green-text md:pt-52 md:pl-18 "
       data-aos="fade-down"
       data-aos-delay="300"
     >
       <h1 class="text-6xl mb-16">{{ heroTitle }}</h1>
-      <strong class="title md:pr-80 text-xl">
+      <p class="title md:pr-80 text-xl font-bold ">
         {{ heroSubtitle }}
-      </strong>
+      </p>
 
       <div class="flex md:flex-row flex-col justify-between md:w-1/2 items-center">
         <AppButton link="Learn More" to="species" class="mt-24" />
