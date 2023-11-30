@@ -77,12 +77,12 @@ export default {
     <p class="pre-title text-gray-500 text-lg pt-8" data-aos="zoom-in-up">Find Your Plant</p>
     <h4 class="text-4xl px-2 pb-24 text-green-800" data-aos="zoom-in-up">Native Plants that best fit your home</h4>
 
-    <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row md:space-x-8  " data-aos="zoom-in-up" ata-aos-delay="300ms" >
+    <div class="plant-cards m-auto  overflow-x-scroll flex flex-col md:flex-row md:space-x-8  " data-aos="zoom-in-up" data-aos-delay="300ms" >
 
-
-        <div class="plant-card flex flex-col min-w-80 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">
-
-          <img  :src="plant.img" alt="Image of plant" >
+<!--Plant Card-->
+        <div class="plant-card flex flex-col w-52 bg-gray-100 rounded shadow-md hover:shadow-xl cursor-pointer" v-for="plant in items" :key="plant.id" data-aos="zoom-in-up" data-aos-duration="1500">
+  <!-- Plant Card Image-->
+          <nuxt-img  :src="plant.img" alt="Image of plant" height="300px" preload format="webp" class="overflow-hidden h-80 aspect-square" />
           <div class="flex flex-col">
             <div class="self-start md:pl-4 py-2 flex flex-row justify-between w-full" ><strong class=" plant-title" >{{plant.title}}</strong>
 
@@ -90,6 +90,7 @@ export default {
               <!--Plant Card Rating-->
               <div class="flex items-center justify-end space-x-2 pr-4 w-24">
 
+                <!--Plant Card GOld Star-->
 
                 <nuxt-img class="gold-star" src="/img/Gold_Star.svg" alt="Image of a gold star" format="webp"/> <p class=" text-lg ">{{plant.rating}}</p>
 
@@ -133,7 +134,7 @@ export default {
 }
 
 .plant-card {
-  min-width: 25%;
+  min-width: 20%;
   min-height: 80%;
   margin-bottom: 2rem;
 }
